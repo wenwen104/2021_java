@@ -22,32 +22,4 @@ public class Main {
   
 }
 ```
-```
-上述程式中填寫結果如下(選出錯誤的)  => #???
-[A]total1 = add(x, y);   <====(1)
-   total2 = add(x, y, k); <=====(2)
-   會正確執行
-[B]total1 = add(x, y);   <====(1)
-   total2 = add(i, j, k); <=====(2)
-   會正確執行
-[C]total1 = add(i, j);   <====(1)
-   total2 = add(i, j, k); <=====(2)
-   會正確執行
-[D]以上都會正確執行
-```
-# 填充題
-```
-public class Angle {
-	public static void main(String[] args) {
-		double angle = 60;				
-                double radian = _____________________;  => angle ( angle * PI / 180.0 );
-		
-		double sin = Math.sin(radian); 		
-                System.out.println("sin=" + sin);	
-		double cos = Math.cos(radian); 		
-                System.out.println("cos=" + cos);
-	 
-	}
 
-}
-```
