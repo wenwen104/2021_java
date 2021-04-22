@@ -6,8 +6,8 @@ public class Main {
 	public static void main(String[] args) {
 		int total1, x=17, y=28;
 		double total2, i=3.8, j=22.7, k=15.1;
-		total1 = _____(1)_____;  => add(x,y);
-		total2 = _____(2)_____;  => add(i,j,y);
+		total1 = _____(1)_____;  => #add(x,y);
+		total2 = _____(2)_____;  => #add(i,j,y);
 		System.out.printf("%d%n",total1);
 		System.out.printf("%f%n",total2);
 	}
@@ -23,7 +23,7 @@ public class Main {
 }
 ```
 ```
-上述程式中填寫結果如下(選出錯誤的)  => ???
+上述程式中填寫結果如下(選出錯誤的)  => #???
 [A]total1 = add(x, y);   <====(1)
    total2 = add(x, y, k); <=====(2)
    會正確執行
