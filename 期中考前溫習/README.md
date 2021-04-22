@@ -35,3 +35,19 @@ public class Main {
    會正確執行
 [D]以上都會正確執行
 ```
+# 填充題
+```
+public class Angle {
+	public static void main(String[] args) {
+		double angle = 60;				
+                double radian = _____________________;  => angle ( angle * PI / 180.0 );
+		
+		double sin = Math.sin(radian); 		
+                System.out.println("sin=" + sin);	
+		double cos = Math.cos(radian); 		
+                System.out.println("cos=" + cos);
+	 
+	}
+
+}
+```
