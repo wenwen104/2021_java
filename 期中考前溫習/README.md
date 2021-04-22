@@ -14,6 +14,7 @@ class FactorialExample{
 }  
 ```
 #
+https://ithelp.ithome.com.tw/articles/10192342
 ```
 
 傳值呼叫(call by value)
