@@ -35,6 +35,19 @@ void methed(string s ,int a)[] 成功引數型別相同順序不同
 ```
 
 ```
+遞迴
 
+function Factorial(n)
+	if n == 1
+		return 1
+	return n * Factorial(n - 1)
+
+迭代法
+
+function Factorial(n)
+	sum = 1
+	for i = 1 to n
+		sum = sum * i
+	return sum
 ```
 
