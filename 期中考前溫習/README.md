@@ -25,6 +25,13 @@ https://ithelp.ithome.com.tw/articles/10192342
 
 方法多載（Overloading）是指多個名稱相同但參數個數或型別不同的方法，編譯器依傳入參數的個數、型別與順序決定使用哪一個方法
 
+int mether()[]                 不能多載,回傳直不同但引數值相同
+void methed(int a)[]           成功,比int多一個引數
+void methed(int b)[]           不能,引數不同
+void methed(string s)[]        成功引數相同,型別不同
+void methed(int a,string s)[]  成功引數型別不同
+void methed(string s ,int a)[] 成功引數型別相同類型不同
+
 ```
 
 ```
