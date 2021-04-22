@@ -30,7 +30,7 @@ void methed(int a)[]           成功,比int多一個引數
 void methed(int b)[]           不能,引數不同
 void methed(string s)[]        成功引數相同,型別不同
 void methed(int a,string s)[]  成功引數型別不同
-void methed(string s ,int a)[] 成功引數型別相同類型不同
+void methed(string s ,int a)[] 成功引數型別相同順序不同
 
 ```
 
